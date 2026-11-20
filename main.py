@@ -3,7 +3,7 @@
 
 Reads every <id>.in case (schema makefun/gta6-trophies-case/v1) from the
 input directory and writes <id>.out with five quantiles (5/25/50/75/95%)
-per trophy. Standard library only, no network, deterministic.
+per trophy. Standard library only, no network, no clock, deterministic.
 Outside the grader: MAKEFUN_INPUT_DIR / MAKEFUN_OUTPUT_DIR stand in for
 /input and /output.
 """
